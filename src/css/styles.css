@@ -1,0 +1,87 @@
+body{
+
+    background-color:hsl(47, 88%, 63%);
+
+}
+.conteudo{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    left:50%; top:50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    filter:drop-shadow(12px 12px);
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.conteudo .imagem-titulo{
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+.conteudo button{
+    background-color:hsl(47, 88%, 63%);
+    border:none;
+    width: 80px;
+    height: 30px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 280px;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 5px;
+    font-size: 10px;
+}
+.conteudo .data {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    width: 200px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.conteudo .titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 0 18px;
+}
+.conteudo .titulo h1:hover{
+    color: hsl(47, 88%, 63%);
+    transition: 0.5s;
+}
+.conteudo .titulo p{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 300;
+    color: gray;
+}
+.conteudo .autor{
+    display: flex;
+    width: 350px;
+    justify-content: left;
+    padding: 5px;
+}
+.conteudo .autor .imagem-avatar{
+    width: 30px;
+}
+.conteudo .autor p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    font-weight: 800;
+    font-size: 14px;
+}
